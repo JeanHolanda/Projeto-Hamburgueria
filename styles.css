@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/burger-logo-design-template-33f22d800b8816f9b3fd0030397a742a_screen.jpg?ts=1626958176');
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+}
+
+header {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: aqua;
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+ul {
+    list-style: none;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 5px;
+    height: 230px;
+    width: 210px;
+}
+
+img {
+    height: 130px;
+}
+
+.item-price {
+    color: aqua;
+    font-weight: bold;
+}
